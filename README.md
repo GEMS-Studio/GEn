@@ -1,7 +1,7 @@
 # GEn
 Game Engine to be used by GEMS Studio
 
-# Dependencies
+## Dependencies
 
 This project requires SDL2 and SDL2_Image, and is planned to use SDL2_Mixer. 
 
