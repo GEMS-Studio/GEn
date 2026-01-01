@@ -8,7 +8,7 @@ This project requires SDL2 and SDL2_Image, and is planned to use SDL2_Mixer.
 ## On Linux:
 On Linux, you can install the dependencies with the included package managers. This is not an all inclusive list, so if you don't find your distro here, just Google it, but these are the most common distros.
 ### Debian and Derivatives:
-`sudo apt install libsdl2-dev libsdl2-image-dev`
+`sudo apt install gcc libsdl2-dev libsdl2-image-dev`
 
 ### Fedora and Derivatives:
 `sudo dnf install SDL2 SDL2-devel SDL2_Image`
@@ -26,6 +26,15 @@ Open Terminal, then paste this command:
 Give it necessary permissions, and follow the steps at the end. You may have to quit and reopen terminal for it to work.
 Once Homebrew has been installed, type:
 `brew install sdl2 sdl2_image`
+to install the dependencies
 
 ### MacPorts(Alternative)
-Go to [https://www.macports.org/install.php]
+Go to https://www.macports.org/install.php and download the appropriate .pkg for your OS version.
+Ater installation, type
+`sudo port install libsdl2 libsdl2_image`
+to install the dependencies.
+
+
+## On Windows
+Unlike 
+
